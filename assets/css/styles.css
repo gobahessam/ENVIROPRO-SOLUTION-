@@ -366,6 +366,29 @@ img{
   margin: 0 var(--mb-2)
 }
 
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icon {
+  color: #dab133;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #f7ce3c;
+}
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
